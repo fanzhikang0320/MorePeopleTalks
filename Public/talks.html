@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./talks.css">
+    <title>多人聊天室</title>
+</head>
+<body>
+    <div class="chat-box">
+        <div class="title-box">
+            <p class="nickname-box">(用户昵称)</p>
+            <p>当前在线人数：<span class="onlineNum">5</span></p>
+        </div>
+
+        <div class="talks-box">
+            <!-- <div class="notification-box">
+                <p class="notification comming">
+                    欢迎<span class="user-name">xxx</span>进入聊天室~
+                </p>
+                <p class="notification leave">
+                    <span class="user-name">xxx</span>离开了聊天室
+                </p>
+            </div>
+    
+            <div class="server-user">
+                <span class="server-nickname nickname">Nickname</span>
+                <img src="" alt="" class="head-img">
+                <p class="msg server-msg">hello!</p>
+            </div>
+            <div class="user">
+                <span class="client-nickname nickname">Nickname</span>
+                <p class="msg client-msg">Hi~</p>
+                <img src="" alt="" class="head-img">
+            </div> -->
+
+        </div>
+        
+        
+        <div class="input-area">
+            <div contenteditable="true" class="msg-box"></div>
+            <button class="btn">发送</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="./talks.js"></script>
+</body>
+</html>

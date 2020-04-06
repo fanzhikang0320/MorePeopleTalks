@@ -1,0 +1,46 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.wrapper .input-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .input-area #nickname {
+    height: 50px;
+    width: 85%;
+    font-size: 16px;
+}
+.wrapper .input-area .btn {
+    outline: none;
+    border: none;
+    background-color: rgb(0, 128, 248);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 15px;
+
+}
+.wrapper .checkImgBox {
+    margin-top: 30px;
+    
+}
+.wrapper .checkImgBox img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(80, 79, 79, 0.541);
+}
